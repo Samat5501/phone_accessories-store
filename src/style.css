@@ -1,0 +1,26 @@
+@media (max-width: 765px){
+    .container{
+        width: 100%;
+        padding: 0px auto;
+    }
+    .col-3{
+        width: 50%;
+    }
+
+    .col-6{
+        width: 100%;
+    }
+    .detail__image{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .col-3{
+        width: 100%;
+    }
+}
