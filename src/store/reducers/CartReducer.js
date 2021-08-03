@@ -5,10 +5,11 @@ const initialState = {
 }
 
 export const CartReducer = (state = initialState, action) => {
+  let product;
+  let index;
     switch (action.type) {
       case "ADD_TO_CART":
-            const { product, quantity } = action.payload;
-            console.log('quantity',quantity);
+        const { product, quantity } = action.payload;
         const check = state.products.find((pr) => pr.id === product.id);
         if (check) {
           return state;
@@ -23,9 +24,8 @@ export const CartReducer = (state = initialState, action) => {
             totalQuantities: Tquantities,
           };
         }
+        case 'INC': 
       default:
         return state;
     }
 }
-
-// git remote add origin https://github.com/Samat5501/phone_accessories-store.git

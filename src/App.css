@@ -91,8 +91,17 @@ a{
     flex-wrap: wrap;
 }
 
+.col-2{
+    width: 16.33333333333333%;
+    padding: 20px;
+}
+
 .col-3{
     width: 25%;
+}
+
+.col-9{
+    width: 75%;
 }
 
 .col-6{
@@ -233,3 +242,24 @@ a{
     font-size: 18px;
 }
 
+/* cart */
+.cart{
+    margin-top: 150px;
+}
+
+.cart__heading{
+background: #948f8f;
+}
+
+.cart__img img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.vertical{
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+}
