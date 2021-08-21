@@ -10,6 +10,7 @@ const Details = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
   const { product } = useSelector((state) => state.ProductsReducer);
+  console.log("DetailsProduct",product);
 
   useEffect(() => {
     dispatch(detail_product(id));

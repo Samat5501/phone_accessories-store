@@ -38,7 +38,7 @@
 }
 
 .header{
-    background-image: url('https://www.apple.com/ac/ac-video-posterframe/4.0/images/ac_video_poster_960x540_2x.jpg');
+    background-image: url('https://www.apple.com/v/environment/m/images/meta/og__bghpqp9r7ewi.png?202105280658');
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -262,4 +262,38 @@ background: #948f8f;
 
 .text{
     text-align: center;
+}
+
+.cart__remove{
+    cursor: pointer;
+}
+
+.summary{
+    padding-left: 10px;
+}
+
+.summary__heading{
+    background: #f4f6f8;
+}
+
+.summary__details{
+    background: rgb(231, 130, 130);
+    color: white;
+    padding: 15px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.checkout{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: white;
+    color: rgb(231, 130, 130);
+    width: 100%;
+    padding: 12px 5px;
+    font-size: 17px;
+    text-transform: uppercase;
 }

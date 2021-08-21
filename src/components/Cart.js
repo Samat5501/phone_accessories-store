@@ -4,9 +4,11 @@ import currencyFormatter from "currency-formatter";
 import { BsDash, BsPlus, BsReverseBackspaceReverse } from "react-icons/bs";
 
 const Cart = () => {
-  const { products } = useSelector((state) => state.CartReducer);
-    
-    const dispatch = useDispatch()
+  const { products, totalQuantities, totalPrice } = useSelector(
+    (state) => state.CartReducer
+  );
+
+  const dispatch = useDispatch();
 
   return (
     <div className="cart">
@@ -45,13 +47,23 @@ const Cart = () => {
                     </div>
                   </div>
                   <div className="col-2">
-                    <div className="detail__info">
+                    <div className="detail__info cart__inDec">
                       <div className="detail__wrapper">
-                        <span className="decrease">
+                        <span
+                          className="decrease"
+                          onClick={() =>
+                            dispatch({ type: "DEC", payload: product.id })
+                          }
+                        >
                           <BsDash />
                         </span>
                         <span className="quantity">{product.quantity}</span>
-                        <span className="increase" onClick={() => dispatch({type: 'INC', payload: product.id})}>
+                        <span
+                          className="increase"
+                          onClick={() =>
+                            dispatch({ type: "INC", payload: product.id })
+                          }
+                        >
                           <BsPlus />
                         </span>
                       </div>
@@ -66,13 +78,37 @@ const Cart = () => {
                     </div>
                   </div>
                   <div className="col-2">
-                    <div className="cart__remove">
+                    <div
+                      onClick={() =>
+                        dispatch({ type: "REMOVE", payload: product.id })
+                      }
+                      className="cart__remove"
+                    >
                       <BsReverseBackspaceReverse />
                     </div>
                   </div>
                 </div>
               ))}
-              <div className="col-3">summary </div>
+              <div className="col-3 summary-col">
+                <div className="summary">
+                  <div className="summary__heading">summary</div>
+                  <div className="summary__details">
+                    <div className="row mb-10">
+                      <div className="col-6">Total Items:</div>
+                      <div className="col-6">{totalQuantities}</div>
+                      <div className="row mb-10">
+                        <div className="col-6">Total Price</div>
+                        <div className="col-6">
+                          {currencyFormatter.format(totalPrice, {
+                            code: "USD",
+                          })}
+                        </div>
+                      </div>
+                      <button type='button' className='checkout'>Checkout</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </>
         ) : (

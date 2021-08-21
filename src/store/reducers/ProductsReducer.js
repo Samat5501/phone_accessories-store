@@ -5,8 +5,9 @@ const initState = {
   products: data,
   product: {},
 };
-
+console.log('ProductReducerProduct',initState.product)
 const ProductsReducer = (state = initState, action) => {
+  ;
   switch (action.type) {
     case PRODUCT:
       return {

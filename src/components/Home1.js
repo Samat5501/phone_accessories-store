@@ -5,7 +5,6 @@ import currencyFormatter from 'currency-formatter'
 import { Link } from 'react-router-dom'
 
 
-
 const Home1 = () => {
   const { products } = useSelector((state) => state.ProductsReducer);
   
