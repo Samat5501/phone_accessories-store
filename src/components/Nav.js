@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../App.css'
 import { BsFillBagFill } from 'react-icons/bs'
 import { useSelector } from 'react-redux'
+import logo from './img/logo.jpg'
 
 
 const Nav = () => {
@@ -14,7 +15,7 @@ const Nav = () => {
           <div className="nav__container">
             <div className="nav__left">
               <Link to="/">
-                <img className="img-logo" src="/img/logo.jpg" alt="logo" />
+                <img className="img-logo" src={logo} alt="logo" />
               </Link>
             </div>
             <div className="nav__right">

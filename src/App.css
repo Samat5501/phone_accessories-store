@@ -297,3 +297,15 @@ background: #948f8f;
     font-size: 17px;
     text-transform: uppercase;
 }
+
+.hel{
+    margin-bottom: 50px;
+}
+
+.back_home span{
+    text-transform: capitalize;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin-top: 130px;
+    background: rgb(204, 152, 152);
+}

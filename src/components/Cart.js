@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import currencyFormatter from "currency-formatter";
 import { BsDash, BsPlus, BsReverseBackspaceReverse } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { products, totalQuantities, totalPrice } = useSelector(
@@ -13,9 +14,9 @@ const Cart = () => {
   return (
     <div className="cart">
       <div className="container">
-        <h3>Your Cart</h3>
         {products.length > 0 ? (
           <>
+        <h3>Your Cart</h3>
             <div className="row">
               <div className="col-9">
                 <div className="cart__heading">
@@ -112,7 +113,10 @@ const Cart = () => {
             </div>
           </>
         ) : (
-          "Your Cart is empty"
+          <div >
+            <h1 className='hel'>Your Cart is empty</h1>
+            <Link to='/' className='back_home'><span>back to shop</span> </Link>
+          </div>
         )}
       </div>
     </div>
