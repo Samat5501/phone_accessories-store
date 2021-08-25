@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/phone_accessories-store/static/css/main.e71397ed.chunk.css",
+    "main.js": "/phone_accessories-store/static/js/main.29ea8297.chunk.js",
+    "main.js.map": "/phone_accessories-store/static/js/main.29ea8297.chunk.js.map",
+    "runtime-main.js": "/phone_accessories-store/static/js/runtime-main.067aa4d7.js",
+    "runtime-main.js.map": "/phone_accessories-store/static/js/runtime-main.067aa4d7.js.map",
+    "static/js/2.aa16cada.chunk.js": "/phone_accessories-store/static/js/2.aa16cada.chunk.js",
+    "static/js/2.aa16cada.chunk.js.map": "/phone_accessories-store/static/js/2.aa16cada.chunk.js.map",
+    "index.html": "/phone_accessories-store/index.html",
+    "static/css/main.e71397ed.chunk.css.map": "/phone_accessories-store/static/css/main.e71397ed.chunk.css.map",
+    "static/js/2.aa16cada.chunk.js.LICENSE.txt": "/phone_accessories-store/static/js/2.aa16cada.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.067aa4d7.js",
+    "static/js/2.aa16cada.chunk.js",
+    "static/css/main.e71397ed.chunk.css",
+    "static/js/main.29ea8297.chunk.js"
+  ]
+}
