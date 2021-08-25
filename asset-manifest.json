@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/phone_accessories-store/static/css/main.e71397ed.chunk.css",
-    "main.js": "/phone_accessories-store/static/js/main.29ea8297.chunk.js",
-    "main.js.map": "/phone_accessories-store/static/js/main.29ea8297.chunk.js.map",
+    "main.css": "/phone_accessories-store/static/css/main.be32203b.chunk.css",
+    "main.js": "/phone_accessories-store/static/js/main.625b891e.chunk.js",
+    "main.js.map": "/phone_accessories-store/static/js/main.625b891e.chunk.js.map",
     "runtime-main.js": "/phone_accessories-store/static/js/runtime-main.067aa4d7.js",
     "runtime-main.js.map": "/phone_accessories-store/static/js/runtime-main.067aa4d7.js.map",
-    "static/js/2.aa16cada.chunk.js": "/phone_accessories-store/static/js/2.aa16cada.chunk.js",
-    "static/js/2.aa16cada.chunk.js.map": "/phone_accessories-store/static/js/2.aa16cada.chunk.js.map",
+    "static/js/2.87cc7659.chunk.js": "/phone_accessories-store/static/js/2.87cc7659.chunk.js",
+    "static/js/2.87cc7659.chunk.js.map": "/phone_accessories-store/static/js/2.87cc7659.chunk.js.map",
     "index.html": "/phone_accessories-store/index.html",
-    "static/css/main.e71397ed.chunk.css.map": "/phone_accessories-store/static/css/main.e71397ed.chunk.css.map",
-    "static/js/2.aa16cada.chunk.js.LICENSE.txt": "/phone_accessories-store/static/js/2.aa16cada.chunk.js.LICENSE.txt"
+    "static/css/main.be32203b.chunk.css.map": "/phone_accessories-store/static/css/main.be32203b.chunk.css.map",
+    "static/js/2.87cc7659.chunk.js.LICENSE.txt": "/phone_accessories-store/static/js/2.87cc7659.chunk.js.LICENSE.txt",
+    "static/media/1.39fedcaa.png": "/phone_accessories-store/static/media/1.39fedcaa.png",
+    "static/media/10.dcff69ec.png": "/phone_accessories-store/static/media/10.dcff69ec.png",
+    "static/media/2.7c0c19aa.jpg": "/phone_accessories-store/static/media/2.7c0c19aa.jpg",
+    "static/media/3.549ea996.jpg": "/phone_accessories-store/static/media/3.549ea996.jpg",
+    "static/media/5.30f12311.jpg": "/phone_accessories-store/static/media/5.30f12311.jpg",
+    "static/media/7.f31792e4.jpg": "/phone_accessories-store/static/media/7.f31792e4.jpg",
+    "static/media/8.edc547c8.jpg": "/phone_accessories-store/static/media/8.edc547c8.jpg",
+    "static/media/9.3a13ed83.jpg": "/phone_accessories-store/static/media/9.3a13ed83.jpg",
+    "static/media/logo.31b47eee.jpg": "/phone_accessories-store/static/media/logo.31b47eee.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.067aa4d7.js",
-    "static/js/2.aa16cada.chunk.js",
-    "static/css/main.e71397ed.chunk.css",
-    "static/js/main.29ea8297.chunk.js"
+    "static/js/2.87cc7659.chunk.js",
+    "static/css/main.be32203b.chunk.css",
+    "static/js/main.625b891e.chunk.js"
   ]
 }
